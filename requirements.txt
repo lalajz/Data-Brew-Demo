@@ -1,6 +1,7 @@
 plotly>=3.1
 ipywidgets>=7.2
 notebook>=5.3
+matplotlib
 numpy
 pandas
 sklearn
