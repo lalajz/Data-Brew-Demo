@@ -6,4 +6,4 @@ Interactive Visualization in Jupyter Notebook
 
 
 [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/lalajz/Data-Brew-Demo/master)
-.. image:: https://mybinder.org/badge.svg :target: https://mybinder.org/v2/gh/lalajz/Data-Brew-Demo/master
+
