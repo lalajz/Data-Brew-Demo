@@ -1,8 +1,16 @@
 plotly>=3.1
-ipywidgets>=7.2
 notebook>=5.3
 matplotlib
 numpy
 pandas
 sklearn
 scipy
+nbinteract
+IPython>=6, <7
+nbconvert>=5.3, <6
+traitlets>=4.3, <5
+bqplot>=0.10, <1
+ipywidgets>=7, <8
+toolz>=0.8, <1
+docopt>=0.6.2, <1
+nbformat>=4.4.0, <5
