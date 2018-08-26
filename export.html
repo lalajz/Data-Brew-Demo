@@ -1,0 +1,47 @@
+
+<html>
+  <head>
+
+    <title>Widget export</title>
+
+    <!-- Load RequireJS, used by the IPywidgets for dependency management -->
+    <script 
+      src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js" 
+      integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" 
+      crossorigin="anonymous">
+    </script>
+
+    <!-- Load IPywidgets bundle for embedding. -->
+    <script 
+      src="https://unpkg.com/@jupyter-widgets/html-manager@*/dist/embed-amd.js" 
+      crossorigin="anonymous">
+    </script>
+
+    <!-- The state of all the widget models on the page -->
+    <script type="application/vnd.jupyter.widget-state+json">
+      {"version_major": 2, "version_minor": 0, "state": {"ab98252c023c4911a31d419c4c9e7c87": {"model_name": "LayoutModel", "model_module": "@jupyter-widgets/base", "model_module_version": "1.0.0", "state": {}}, "dfa43b60ae574e0a9b9cc61df322627f": {"model_name": "SliderStyleModel", "model_module": "@jupyter-widgets/controls", "model_module_version": "1.2.0", "state": {}}, "702d1894344049c4be4bc8514afd0168": {"model_name": "IntSliderModel", "model_module": "@jupyter-widgets/controls", "model_module_version": "1.2.0", "state": {"_dom_classes": [], "layout": "IPY_MODEL_ab98252c023c4911a31d419c4c9e7c87", "style": "IPY_MODEL_dfa43b60ae574e0a9b9cc61df322627f", "value": 40}}, "f0e7af38413b46829e88367060f548da": {"model_name": "LayoutModel", "model_module": "@jupyter-widgets/base", "model_module_version": "1.0.0", "state": {}}, "5b24bcd354c14afca93c809454468509": {"model_name": "SliderStyleModel", "model_module": "@jupyter-widgets/controls", "model_module_version": "1.2.0", "state": {}}, "92723c17c2f14ddfaee698ac8721a158": {"model_name": "IntSliderModel", "model_module": "@jupyter-widgets/controls", "model_module_version": "1.2.0", "state": {"_dom_classes": [], "layout": "IPY_MODEL_f0e7af38413b46829e88367060f548da", "max": 200, "style": "IPY_MODEL_5b24bcd354c14afca93c809454468509", "value": 100}}, "d6107465da204a83b994448550e2c6ac": {"model_name": "LayoutModel", "model_module": "@jupyter-widgets/base", "model_module_version": "1.0.0", "state": {}}, "88fa867ba5414ce390bbc3f9642647e0": {"model_name": "SliderStyleModel", "model_module": "@jupyter-widgets/controls", "model_module_version": "1.2.0", "state": {}}, "d96b1e6e58ba40ddbda26db869f402db": {"model_name": "IntSliderModel", "model_module": "@jupyter-widgets/controls", "model_module_version": "1.2.0", "state": {"_dom_classes": [], "layout": "IPY_MODEL_d6107465da204a83b994448550e2c6ac", "style": "IPY_MODEL_88fa867ba5414ce390bbc3f9642647e0", "value": 40}}}}
+    </script>
+  </head>
+
+  <body>
+
+    <h1>Widget export</h1>
+
+    <div id="first-slider-widget">
+      <!-- This script tag will be replaced by the view's DOM tree -->
+      <script type="application/vnd.jupyter.widget-view+json">
+        {"version_major": 2, "version_minor": 0, "model_id": "92723c17c2f14ddfaee698ac8721a158"}
+      </script>
+    </div>
+
+    <hrule />
+
+    <div id="second-slider-widget">
+      <!-- This script tag will be replaced by the view's DOM tree -->
+      <script type="application/vnd.jupyter.widget-view+json">
+        {"version_major": 2, "version_minor": 0, "model_id": "d96b1e6e58ba40ddbda26db869f402db"}
+      </script>
+    </div>
+
+  </body>
+</html>
